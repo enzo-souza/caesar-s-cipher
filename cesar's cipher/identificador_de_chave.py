@@ -1,4 +1,4 @@
-message = "enzo gabriel"
+message = open("texto.txt").read()
 new_message = ''
 
 letter_percent=[]  

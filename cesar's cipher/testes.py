@@ -1,3 +1,3 @@
-A = open('texto.txt','r')
+A = open('texto.txt')
 
 print(A.read())
