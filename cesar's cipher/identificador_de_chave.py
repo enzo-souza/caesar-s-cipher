@@ -1,4 +1,4 @@
-message = 'enzo gabriel'
+message = "enzo gabriel"
 new_message = ''
 
 letter_percent=[]  
@@ -15,6 +15,6 @@ for i in range(len(message)): #calculation of the percentage of the message's le
                     new_message += message[i]
                 
         letter_percent.append([message[i],f'{(letter_score/len(message)):.2f}']) #put in a list (letter_percent) the percent of each letter in the messege
-        print(new_message,'--',message[i])
+    
 print(letter_percent)
 
