@@ -1,10 +1,10 @@
-alphabet = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ"
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 key = 3
-message = open('texto.txt').read().strip()
+message = open('text.txt').read().strip()
 
 A = ''
 
-for i in range(len(message)):
+for i in range(len(message)): 
     if message[i] != ' ' :
         for j in range(len(alphabet)):
             if alphabet[j] == message[i]:

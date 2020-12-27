@@ -1,3 +1,7 @@
-arquivo = open('encryptophyed_text.txt','w')
-arquivo.write('ana bacana')
-arquivo.close()
+g = 'abcdefghijklmnopqrstuvwxyz'
+h = ''
+
+for i in range(len(g)-1,-1,-1):
+    h += g[i]
+
+print(h)
