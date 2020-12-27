@@ -1,4 +1,4 @@
-message = open("texto.txt").read()
+message = open("encryptophyed_text.txt").read() #read a text from another file
 new_message = ''
 
 letter_percent=[]  
